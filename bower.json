@@ -1,0 +1,22 @@
+{
+  "name": "fix-tangerine",
+  "description": "",
+  "main": "content.js",
+  "authors": [
+    "Keven Lefebvre <orditeck@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "insertionQuery": "^1.0.4",
+    "jquery": "^3.2.1",
+    "angular": "^1.6.6"
+  }
+}

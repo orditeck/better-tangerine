@@ -1,0 +1,76 @@
+.page-content {
+
+  .c-details-overview {
+    float: left;
+  }
+
+  .c-account-control-options {
+    float: right;
+    text-align: right;
+    padding: 10px 0 0;
+
+    .c-account-control-options__button {
+      font-size: 0.8rem;
+      padding: 0.4rem 0.7rem;
+      margin: 2px 5px 0 0;
+    }
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  .c-account-details__balance,
+  .c-details-overview__name {
+    display: none;
+  }
+
+  .c-account-breakdown {
+    padding: 0.5rem;
+
+    .c-account-breakdown__value,
+    .c-account-breakdown__value--separator {
+      font-size: 1rem;
+    }
+  }
+
+  .c-details-tab-bar {
+    background: #333333;
+    margin-top: 0;
+
+    .c-details-tab-bar__list-item {
+      color: #fff;
+    }
+  }
+
+  .c-account-details__details-tab-bar {
+    padding: 0;
+  }
+
+  .c-transactions-tab__section-header {
+    margin-top: 20px;
+
+    &.print-hide {
+      display: none;
+    }
+  }
+
+  .c-transaction-filters {
+    margin-bottom: 0;
+  }
+
+  .btn-show-hide-chart {
+    width: auto;
+    padding: 6px 10px;
+    font-size: 0.95rem;
+    float: right;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .9;
+    }
+  }
+
+}

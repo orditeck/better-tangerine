@@ -1,0 +1,26 @@
+.page-content {
+
+  .c-insights-carousel { display: none; }
+
+  .c-what-i-card__top  {
+    padding: 10px;
+  }
+
+  .c-what-i-card__amount { font-size: 2rem; }
+
+  /*
+  ACCOUNT SECTION
+   */
+
+  .c-account-section__title,
+  .c-account-section__subtitle,
+  .c-account-add { display: none; }
+  .c-account-section { margin: 0; }
+
+  /*
+  QUICK ACCESS
+   */
+
+  .c-quick-access { display: none; }
+
+}
